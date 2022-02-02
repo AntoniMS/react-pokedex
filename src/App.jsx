@@ -1,11 +1,16 @@
 import "./App.scss";
-import Pokedex from './components/Pokedex';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Pokedex from "./components/Pokedex";
 
 function App() {
   return (
-    <div>
-      <Pokedex />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Pokedex/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
-};
+}
 export default App;
