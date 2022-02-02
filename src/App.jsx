@@ -47,11 +47,11 @@ const App = () => {
           }}
           value={pokemonName.toLowerCase()}
         />
-        <div>
+        
           {pokemonName && (
             <button onClick={searchPokemon}>Search Pokémon</button>
           )}
-        </div>
+        
       </div>
 
       <div className="DisplaySection">
