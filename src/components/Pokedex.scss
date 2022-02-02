@@ -23,29 +23,11 @@
   }
 
   button {
-    background: linear-gradient(190deg, #ffffffcc, #d30000e8);
-    
-    width: 130px;
-    height: 40px;
-    margin: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.753);
-    border-radius: 10px;
-    font-size: 18px;
-    padding-left: 10px;
-    font-family: Staatliches;
-    color: #ddac0c;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px;
-    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-      -1px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black, -1px 0px 0 black,
-      1px -1px 0 black, 2px 2px 0px rgba(0, 0, 0, 0.424);
-    transition: 0.3s;
-    cursor: pointer;
-  }
+    border: none;
+    color: rgb(255, 151, 151);
+    padding: 10px;
+    background: rgb(103, 0, 121);
 
-  button:hover {
-    transition: 0.2s;
-    background-color: red;
-  }
 }
 
 .DisplaySection {
@@ -90,4 +72,5 @@
   border-radius: 50%;
   padding: 10px;
   background: linear-gradient(-19deg, #ffffffce, #00000098, #a80000dc);
+}
 }
