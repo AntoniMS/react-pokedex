@@ -1,9 +1,8 @@
-import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import "./Pokedex.scss";
 
-const Pokedex = () => {
+export default function Pokedex ()  {
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonChosen, setPokemonChosen] = useState(false);
   const [pokemon, setPokemon] = useState({
@@ -72,4 +71,4 @@ const Pokedex = () => {
   );
 };
 
-export default Pokedex;
+

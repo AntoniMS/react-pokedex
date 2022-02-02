@@ -1,7 +1,7 @@
 import "./App.scss";
 import Pokedex from './components/Pokedex';
 
-const App = () => {
+function App() {
   return (
     <div>
       <Pokedex />
